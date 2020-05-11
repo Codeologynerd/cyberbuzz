@@ -1,0 +1,155 @@
+*{
+margin: 0;
+padding: 0;
+transition: all 1s;
+}
+
+q{
+	font-family: 'Caveat', cursive;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+.hump{
+	border: 2px solid red;
+	width: 20%;
+	}
+	.hump:hover{
+		border: 2px dashed red;
+	}
+.head{
+	font-size: 48px;
+	font-family: 'Alfa Slab One', cursive;
+}
+.line{
+	border: 2px solid black;
+	width: 75%;
+	border-radius: 20%;
+}
+.hr{
+	width: 50%;
+border: 2px solid pink;
+	border-radius: 20%;	
+}
+.img{
+	opacity: 0.5;
+	border-radius: 10px;
+	border: 5px solid white;
+}
+.img:hover{
+	opacity: 1;
+	border-radius: 10px;
+}
+#nav{
+	background-image: linear-gradient(to right, #075ba6, #3291ab, #63a9ff,#a487fa,#f7a8e2, #e060be, #e01466); 
+	padding: 20px;
+	  width: 90%;
+	  border-radius: 20px;
+}
+#nav:hover{
+	width: 100%;
+	border-radius: 0px;
+}
+.dope{
+	border-radius: 20px; 
+	opacity: 0.49;
+	transform: rotate(5deg);
+}
+.dope:hover{
+opacity: 1;
+	transform: rotate(0deg);	
+}
+.plum {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+.plum li {
+  display: inline;
+  padding: 10px;
+}
+.plum li a{
+	color: white;
+	padding: 14px 16px;
+}
+.plum li a:hover{
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+}
+.about{
+	background-color: #000;
+}
+.sub{
+	font-size: 36px;
+	font-family: 'Pacifico';
+	color: white;
+}
+.col{
+	color: #b7eb8d;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+.sub1{
+	animation-name: take;
+	animation-duration: 2s;
+	color: white;
+	animation-delay: 10s;
+	font-size: 30px;
+	margin-left: 250px;
+	font-family: 'Crete Round', serif;
+}
+.sub11{
+	font-family: 'Crete Round', serif;
+	font-size: 32px;
+}
+
+@keyframes take{
+	from{
+		margin-left: -120px;
+	}
+	to{
+		margin-left: 250px;
+	}
+}
+.conti{
+	color: #ebbc8d;
+}
+.outi{
+	color: #f3f7be;
+}
+.safety{
+	background-image: linear-gradient(to bottom right, #0ef07b, #0ef0d9, #0ebff0);
+}
+.libe{
+	border-radius: 10%;
+	width: 10%;
+	border: 5px solid  #ffbb00;
+}
+.libe:hover{
+	width: 50%;
+}
+.sym{
+	list-style-position: outside;
+  list-style-type: circle;
+  margin-left: 100px; 
+  padding: 10px;
+  width: 500px;
+font-family: 'Electrolize', sans-serif;
+}
+.sym:hover{
+  list-style-type: circle;
+list-style-position: inside;	
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 20px;
+}
+.current{
+	background-image: url('https://images.pexels.com/photos/1679618/pexels-photo-1679618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-origin: cover;
+}
+.case th, td{ padding: 10px;
+}
