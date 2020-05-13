@@ -9,6 +9,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
@@ -38,22 +44,22 @@
 			<div id="nav">
 <ul class="plum">
 	<li>
-		<a href="index.html">
+		<a href="#">
 	HOME
 </a>
 	</li>
 	<li>
-		<a href="#about">
+		<a href="#">
 	ABOUT
 </a>
 	</li>
 	<li>
-		<a href="#safe">
+		<a href="#">
 	SAFETY
 </a>
 	</li>
 	<li>
-		<a href="#current">
+		<a href="#">
 	CURRENT SITUATION
 </a>
 	</li>
@@ -71,8 +77,8 @@
 <div class="about">
 	<br>
 	<center>
-	<font class="sub"><a name="about">
-		What is COVID-19</a>
+	<font class="sub">
+		What is COVID-19
 	</font>
 	<br><br>
 		<img src=" https://img.etimg.com/thumb/width-640,height-480,imgsize-311711,resizemode-1,msid-74594087/covid-19-world-walls-off-as-leaders-warn-viral-pandemic-will-worsen.jpg" class="dope">
@@ -145,35 +151,46 @@ According to the World Health Organization (WHO), as of 2020, MERS cases total m
 		<center>
 			
 		<br>
-			<font class="sub"><a name ="safe">Safety</a></font>
+		<font class="sub">Safety</font>
 		<br>
 		<hr class="libe">
 		<br>
-<div class=”container”>
-    <div class=”image-slider-wrapper”>
-        <ul id=”image_slider”>
-            <li><img src="https://www.verywellmind.com/thmb/e8BKgM7MeV79TMhhmVF40gZ59TI=/1500x1000/filters:fill(ABEAC3,1)/How-to-Be-a-Good-Quarantine-Partner-v2-98086eab167b4d08bfe5475f909f7930.png
-">
-		    <div class="plane">Stay Safe!! Stay Inside!!</div>
-		</li>
-            <li><img src="https://labblog.uofmhealth.org/sites/lab/files/2018-06/michigan-med-l-doc-wardrobe.jpg">
-		 <div class="plane">Thanks for being there and trying your best to find a cure for virus</div>
-		</li>
-            <li><img src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/139886-wpvwchjotl-1586761979.jpg
-">
-		    		 <div class="plane">Thanks for being there and trying your best to guard the citizens</div>
-		</li>
-            <li><img src="https://www.taskade.com/blog/wp-content/uploads/2020/03/taskade-remote.gif">
-<div class="plane">Be with your homies!!!</div>
-		</li>
-            <li><img src="https://lh3.googleusercontent.com/proxy/f5kfxWBFK_Z4QNCPa6kDhpv5HaKwZ3HHj3s3ZW-idzBAvydZfoG4iyxRE1KRKhvraxJSjaAparRkIb5Af892Wgm8_sL9Ydop-LBy5sBCZcQbnRQooaPomRVbx_CihA1skA">
-		 <div class="plane">Don't Panic</div>
-		</li>
-            <li><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202004/EUm634_U8AAoXAM__1_-647x363.jpeg?NHQeXrNiKcFMjxj752CSPSm2oC.8iesv">
-	 <div class="plane">Govt.'s App and if you feeling unconsicous: Contact: +91-11-2397</div>
-		</li>
-        </ul> 
-    </div>
+	<div id="slider">
+<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" id="imagez">
+      <img src="https://www.verywellmind.com/thmb/e8BKgM7MeV79TMhhmVF40gZ59TI=/1500x1000/filters:fill(ABEAC3,1)/How-to-Be-a-Good-Quarantine-Partner-v2-98086eab167b4d08bfe5475f909f7930.png" class="d-block img=fluid" width=1600  height=700>
+       <div class="carousel-caption">
+        <h5>Stay Safe!!! Stay Inside!!!</h5>
+  </div>
+</div>
+    <div class="carousel-item" id="imagez">
+     <img src="https://labblog.uofmhealth.org/sites/lab/files/2018-06/michigan-med-l-doc-wardrobe.jpg" class="d-block img=fluid" width=1600  height=700>
+    <div class="carousel-caption">
+        <h5>Thanks for being there and trying your best to find a cure for virus</h5>
+  </div>
+</div>
+    <div class="carousel-item" id="imagez">
+      <img src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/139886-wpvwchjotl-1586761979.jpg
+" class="d-block img=fluid" width=1600  height=700>
+    <div class="carousel-caption">
+        <h5>Thanks for being there and trying your best to guard the citizens</h5>
+  </div>
+</div>
+  </div>
+  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 		<br>
 		</center>
@@ -245,9 +262,7 @@ sanitizer. It can be poisonous. Remember that washing your hands with soap and w
 <div class="current">
 	<font class="sub" style="color: #e8235b;">
 		<center>
-			<a name="current">
 	Current Situation
-			</a>
 	</font><br><br>
 	<font class="sub11">
 		In World
