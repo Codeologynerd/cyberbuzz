@@ -2,12 +2,10 @@
 margin: 0;
 padding: 0;
 transition: all 1s;
+width: 100%;
 }
 html{
   scroll-behavior: smooth;
-}
-body{
-  overflow-x: hidden;
 }
 .plum {
   list-style-type: none;
@@ -79,7 +77,7 @@ p{
 }
 .scene{
   background-color: #03fcbe;
-   width: 110%;
+
 }
 .img{
   border-radius: 10px;
@@ -95,11 +93,10 @@ p{
 }
 .explore{
   background-image: linear-gradient(to right, #c2ed15,#edea15,#e3a619); 
-  width: 110%;
+  
 }
 .time{
   background-image: linear-gradient(to bottom right, #d94545, #d9458f, #c75300);
-width: 110%;
 }
 .sub{
 font-family: 'Patua One', cursive;  color: #302e2d;
