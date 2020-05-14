@@ -261,3 +261,4 @@ transition: .3s transform linear, .3s height linear .3s;
 .card ul{
 	list-style-position: inside;
 }
+.fa:hover{color: black;}
