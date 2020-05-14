@@ -98,8 +98,9 @@ p{
   width: 110%;
 }
 .time{
-  background-image: linear-gradient(to bottom right, #d94545, #d9458f, #c75300);
+  background-image: url(https://user-images.githubusercontent.com/6901805/58038897-167f0280-7ae6-11e9-94eb-88e880a25f0f.gif);
 width: 110%;
+color: white;
 }
 .sub{
 font-family: 'Patua One', cursive;  color: #302e2d;
