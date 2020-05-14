@@ -16,12 +16,10 @@ html{
 	scroll-behavior: smooth;
 }
 .hump{
-	border: 2px solid red;
+	border: 2px solid black;
 	width: 20%;
 	}
-	.hump:hover{
-		border: 2px dashed red;
-	}
+	
 .head{
 	font-size: 48px;
 	font-family: 'Alfa Slab One', cursive;
@@ -46,7 +44,7 @@ border: 2px solid pink;
 	border-radius: 10px;
 }
 #nav{
-	background-image: linear-gradient(to right, #075ba6, #3291ab, #63a9ff,#a487fa,#f7a8e2, #e060be, #e01466); 
+	background-color: yellow;
 	padding: 20px;
 	  width: 90%;
 	  border-radius: 20px;
@@ -75,7 +73,7 @@ opacity: 1;
   padding: 10px;
 }
 .plum li a{
-	color: white;
+	color: black;
 	padding: 14px 16px;
 }
 .plum li a:hover{
@@ -127,12 +125,12 @@ p{
 	color: #f3f7be;
 }
 .safety{
-	background-image: linear-gradient(to bottom right, #0ef07b, #0ef0d9, #0ebff0);
+	background-color: #ffd105;
 }
 .libe{
 	border-radius: 10%;
 	width: 10%;
-	border: 5px solid  #ffbb00;
+	border: 5px solid  #f0190a;
 }
 .libe:hover{
 	width: 50%;
@@ -245,4 +243,21 @@ border-color: #do4f81;
 height: 100%;
 transform: translateX(0);
 transition: .3s transform linear, .3s height linear .3s;
+}
+.hope{
+  padding: 10px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.hope:hover{
+  color: yellow;
+   text-decoration: none;
+}
+.card{
+	font-family: 'Raleway', sans-serif;
+}
+.card ul{
+	list-style-position: inside;
 }

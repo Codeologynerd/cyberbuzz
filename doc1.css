@@ -25,10 +25,10 @@ body{
 }
 .plum li a:hover{
 	text-decoration: none;
-	background-color: #000;
-	color: #fff;
+	background-color: yellow;
+	color: #000;
 }#nav{
-  background-image: linear-gradient(to right, #2200ff, #ab1da8, #cf1111, #ffbc05,#ffea00); 
+  background-color: black; 
   padding: 20px;
     width: 100%;
     border-radius: 20px;
@@ -78,28 +78,26 @@ p{
   font-family: 'Acme', sans-serif;
 }
 .scene{
-  background-color: #03fcbe;
+  background-color: yellow;
    width: 110%;
 }
 .img{
   border-radius: 10px;
   border: 3px solid black;
-  transform: rotate(-5deg);
+  z-index: -1;
 }
 .img:hover{
-  transform: rotate(0deg);
+  box-shadow: 5px 5px 10px grey;
 }
 .palm{
   border: 2px solid;
   width: 30%;
 }
 .explore{
-  background-image: linear-gradient(to right, #c2ed15,#edea15,#e3a619); 
-  width: 110%;
+  background-color:yellow;
 }
 .time{
-  background-image: url(https://user-images.githubusercontent.com/6901805/58038897-167f0280-7ae6-11e9-94eb-88e880a25f0f.gif);
-width: 110%;
+  background-color: black;
 color: white;
 }
 .sub{
@@ -125,4 +123,82 @@ font-family: 'Patua One', cursive;  color: #302e2d;
     box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     width: 10px;
     background-image: linear-gradient(#17e8b0, #0ac2f5, #0a72f2);
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.section-title{
+  text-align: center;
+    color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.service-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid pink;
+  color: pink;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;.
+    color: pink;
+}
+.service-box:hover .service-icon{
+  background: pink;
+  color: white;
+}
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+    color: white;
+}
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+}
+.lop{
+  opacity: 0.4;
+}
+.lop:hover{
+  border-radius: 10px;
+  opacity: 1;
 }
