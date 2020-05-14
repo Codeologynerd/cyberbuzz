@@ -3,7 +3,11 @@ margin: 0;
 padding: 0;
 transition: all 1s;
 }
-
+.intro{
+		background:url(https://media1.tenor.com/images/552ec189475f1d337391b02d6b0b9965/tenor.gif?itemid=13113745);
+	background-size:cover;
+	color: white;
+}
 q{
 	font-family: 'Caveat', cursive;
 }
@@ -23,7 +27,7 @@ html{
 	font-family: 'Alfa Slab One', cursive;
 }
 .line{
-	border: 2px solid black;
+	border: 2px solid white;
 	width: 75%;
 	border-radius: 20%;
 }
@@ -149,7 +153,7 @@ list-style-position: inside;
 }
 .current{
 	background-image: url('https://images.pexels.com/photos/1679618/pexels-photo-1679618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-	background-origin: cover;
+	background-size: cover;
 }
 .case th, td{ padding: 10px;
 }

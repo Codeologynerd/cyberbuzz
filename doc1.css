@@ -67,7 +67,7 @@ animation-iteration-count: infinite;
 }
 .lost{
   border-radius: 20%;
-  border: 3px solid navy;
+  border: 3px solid #f59d9d;
   width: 35%;
 }
 .image:hover{
