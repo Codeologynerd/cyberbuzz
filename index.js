@@ -26,7 +26,7 @@ function my() {
   var bigText = document.getElementById("big");
   var btnText = document.getElementById("myBtn1");
 
-  if ( dot.style.display === "none") {
+  if (dot.style.display === "none") {
     dot.style.display = "inline";
     btnText.innerHTML = "Read more";
     bigText.style.display = "none";
