@@ -83,8 +83,9 @@ p{
   font-family: 'Acme', sans-serif;
 }
 .scene{
-  background-color: yellow;
+  background-color: #eee;
    width: 110%;
+   color: #111;
 }
 .img{
   border-radius: 10px;
@@ -99,7 +100,8 @@ p{
   width: 30%;
 }
 .explore{
-  background-color:yellow;
+  background-color:#111;
+  color: #eee;
 }
 .time{
   background-color: black;
