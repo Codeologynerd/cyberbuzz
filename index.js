@@ -24,7 +24,7 @@ function myFunction() {
 function my() {
   var dot = document.getElementById("dot");
   var bigText = document.getElementById("big");
-  var btnText = document.getElementById("myBtn");
+  var btnText = document.getElementById("myBtn1");
 
   if ( dot.style.display === "none") {
     dot.style.display = "inline";
@@ -40,7 +40,7 @@ function my() {
 function MY() {
   var dot1 = document.getElementById("dot1");
   var largeText = document.getElementById("large");
-  var btnText = document.getElementById("myBtn");
+  var btnText = document.getElementById("myBtn2");
 
   if ( dot1.style.display === "none") {
     dot1.style.display = "inline";
