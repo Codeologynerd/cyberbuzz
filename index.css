@@ -4,8 +4,7 @@ padding: 0;
 transition: all 1s;
 }
 .intro{
-		background:url(https://media1.tenor.com/images/552ec189475f1d337391b02d6b0b9965/tenor.gif?itemid=13113745);
-	background-size:cover;
+background-color: black;
 	color: white;
 }
 q{
@@ -185,7 +184,7 @@ list-style-position: inside;
     background-image: linear-gradient(#17e8b0, #0ac2f5, #0a72f2);
 }
 #more, #big, #large {display: none;}
-#myBtn{
+#myBtn, #myBtn1, #myBtn2{
 	padding: 10px;
 	background-image: linear-gradient(to right, #581a69, #2090bd);
 	border-radius: 20px;
