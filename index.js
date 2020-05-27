@@ -1,4 +1,4 @@
-AOS.init();
+
 
 $(window).on("load resize ", function() {
   var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
